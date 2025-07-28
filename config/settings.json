@@ -1,0 +1,38 @@
+{
+  "monitoring": {
+    "default_thread_count": 12,
+    "delay_min": 0.2,
+    "delay_max": 1.5,
+    "session_timeout": 300,
+    "max_retries": 3,
+    "rate_limit_backoff": 1.5
+  },
+  "browser": {
+    "headless": false,
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+    "session_reuse_time": 3600,
+    "login_wait_time": 15
+  },
+  "captcha": {
+    "service_url": "https://freecaptchabypass.com",
+    "client_key": "",
+    "timeout": 120,
+    "enabled": false
+  },
+  "webhooks": {
+    "test_on_startup": true,
+    "periodic_stats": true,
+    "stats_interval": 1800
+  },
+  "proxy": {
+    "enabled": false,
+    "rotation_enabled": true,
+    "timeout": 15,
+    "retry_failed": false
+  },
+  "logging": {
+    "level": "INFO",
+    "max_file_size": "10MB",
+    "backup_count": 5
+  }
+}

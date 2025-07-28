@@ -1,0 +1,37 @@
+# Discord Username Monitor - Dependencies
+
+# Core functionality
+requests>=2.31.0
+curl-cffi>=0.5.10
+git+https://github.com/dolfies/discord.py-self.git@latest
+asyncio>=3.4.3
+
+# Browser automation
+selenium>=4.15.0
+webdriver-manager>=4.0.1
+
+# User interface and styling
+pystyle>=2.9
+easygui>=0.98.3
+colorama>=0.4.6
+
+# Natural language processing (optional)
+nltk>=3.8.1
+
+# Web scraping and TLS
+tls-client>=0.2.0
+
+# Utilities
+python-dateutil>=2.8.2
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Async support
+aiohttp>=3.9.0
+aiofiles>=23.2.0
+
+# Development and testing (move to requirements-dev.txt for production)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.7.0
+flake8>=6.0.0
