@@ -11,14 +11,14 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="discord-username-monitor",
+    name="Discord-username-monitor",
     version="2.0.0",
     author="Community Contributors",
     author_email="",
     description="Professional Discord username availability monitoring tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/discord-username-monitor",
+    url="https://github.com/darshkaws/Discord-username-monitor",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     classifiers=[
@@ -48,7 +48,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "discord-username-monitor=main:main",
+            "Discord-username-monitor=main:main",
         ],
     },
     include_package_data=True,
